@@ -151,7 +151,7 @@
     </div>
 
     <h2>Sizes</h2>
-    <p>Use one of these in <code>data-size</code>. The common ones in Irad were 468×60 in the dial-up years, 728×90 and 240×400 in the Flash years, and 728×90 and 300×250 now.</p>
+    <p>Use one of these in <code>data-size</code>. The common ones in Irad were 468×60 in the dial-up years, 728×90 and 240×400 in the mid-2000s, and 728×90 and 300×250 now.</p>
     <div class="sizes" aria-hidden="true">
       <div class="sz" style="width:234px;height:30px">468×60</div>
       <div class="sz" style="width:364px;height:45px">728×90</div>
@@ -172,8 +172,7 @@
     <thead><tr><th>Code</th><th>What it is</th><th>Typical advertisers</th><th>Good for</th></tr></thead>
     <tbody>
       <tr><td><code>dialup</code></td><td>1996–2004 look: small GIFs, blinking, jagged text, fake Windows boxes, "CLICK HERE!!!"</td><td>Attelkom dial-up cards and the first GSM network, computer shops, internet cafés, cowboy hats, <i>Swift Hooves</i></td><td>Webring pages, old forums, archived sites</td></tr>
-      <tr><td><code>flash</code></td><td>2004–2014 look: glossy buttons, starbursts, light sweeps, smiling stock families</td><td>Attelkom 3G, Talasbank credit, car dealers, flats, Iradiya flights</td><td>Mid-2000s sites, anything meant to feel dated but mainstream</td></tr>
-      <tr><td><code>current</code></td><td>2015–now look: flat, one big number, no blinking</td><td>Attelkom 4G, Talasbank app, Jılmay, IradOne, supermarkets</td><td>IradOne, the Talas Herald, modern sites</td></tr>
+      <tr><td><code>current</code></td><td>Everything since 2004: flat designs with one big number next to glossy buttons, starbursts and smiling stock families, as Iradi advertisers still make them</td><td>Attelkom 4G, Talasbank, car dealers, flats, Iradiya flights, Jılmay, IradOne, supermarkets</td><td>IradOne, the Talas Herald, any site since the 2000s</td></tr>
       <tr><td><code>state</code></td><td>Government notices, plain and earnest</td><td>Department of Public Information, the Gendarmerie, the statistics office</td><td>IradOne, government pages</td></tr>
       <tr><td><code>local</code></td><td>Small businesses, cheap and text-heavy</td><td>Wedding halls, kymyz farms, saddlers, taxis, driving schools</td><td>News sites, classifieds, small business pages</td></tr>
       <tr><td><code>diaspora</code></td><td>For Iradis abroad, mostly in English</td><td>Money transfers, flights via Istanbul, Chicago lawyers and parishes</td><td>Iradi-American sites</td></tr>
@@ -182,7 +181,7 @@
     </tbody>
   </table></div>
   <div class="col">
-    <div class="note">Era themes (<code>dialup</code>, <code>flash</code>, <code>current</code>) set the look; the others set the kind of advertiser. A box shows ads from its era, and only the advertiser types you ask for: <code>dialup local</code> gives 1990s ads from big companies and small businesses but no scams, and adding <code>sketchy</code> lets the scams in too. A type on its own, like <code>sketchy</code>, takes ads from any era. IradOne uses <code>current state</code>; the Talas Herald uses <code>current local state</code>.</div>
+    <div class="note">Era themes (<code>dialup</code> and <code>current</code>) set the look; the others set the kind of advertiser. A box shows ads from its era, and only the advertiser types you ask for: <code>dialup local</code> gives 1990s ads from big companies and small businesses but no scams, and adding <code>sketchy</code> lets the scams in too. A type on its own, like <code>sketchy</code>, takes ads from any era. The old <code>flash</code> code still works and now means <code>current</code>. IradOne uses <code>current state</code>; the Talas Herald uses <code>current local state</code>.</div>
   </div>
 
   <h2 id="ads">All ads</h2>
@@ -206,7 +205,7 @@
     });
   });
   // inventory
-  var THEMES = ["all", "dialup", "flash", "current", "state", "local", "diaspora", "offnet", "sketchy"];
+  var THEMES = ["all", "dialup", "current", "state", "local", "diaspora", "offnet", "sketchy"];
   var ads = [], pick = "all";
   try { pick = location.hash.slice(1) && THEMES.indexOf(location.hash.slice(1)) > 0 ? location.hash.slice(1) : "all"; } catch (e) {}
   function area(a) { var p = a.size.split("x"); return p[0] * p[1]; }
@@ -258,7 +257,7 @@
   }
   // ---------- code builder ----------
   var SIZES = ["728x90", "468x60", "300x250", "240x400", "160x600", "120x600", "88x31"];
-  var ERAS = ["dialup", "flash", "current"];
+  var ERAS = ["dialup", "current"];
   var TYPES = ["state", "local", "diaspora", "offnet", "sketchy"];
   var SRC = "https://ads.attelkom.net/serve.js";
   var CSS = '.jarnama { margin: 1.5rem auto; text-align: center; }\n.jarnama:empty { display: none; }\n' +
