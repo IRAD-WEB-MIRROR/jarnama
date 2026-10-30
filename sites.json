@@ -1,0 +1,247 @@
+{
+ "updated": "2026-10-29",
+ "sites": [
+  {
+   "id": "attelkom",
+   "url": "https://attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "attelkom-old",
+   "url": "https://www.attelkom.net/",
+   "status": "old-server"
+  },
+  {
+   "id": "kartalar",
+   "url": "https://maps.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "jarnama",
+   "url": "https://ads.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "iradone",
+   "url": "https://iradone.com/",
+   "status": "ok"
+  },
+  {
+   "id": "iradgov",
+   "url": "https://iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "eirad",
+   "url": "https://e-irad.org/",
+   "status": "partial"
+  },
+  {
+   "id": "eiradid",
+   "url": "https://id.e-irad.org/",
+   "status": "partial"
+  },
+  {
+   "id": "eiradpay",
+   "url": "https://pay.e-irad.org/",
+   "status": "partial"
+  },
+  {
+   "id": "eiradtender",
+   "url": "https://tender.e-irad.org/",
+   "status": "ok"
+  },
+  {
+   "id": "bankofirad",
+   "url": "https://bank.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "archives",
+   "url": "https://archives.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "pochtasy",
+   "url": "https://post.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "elections",
+   "url": "https://elections.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "court",
+   "url": "https://court.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "stats",
+   "url": "https://stats.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "mejlis",
+   "url": "https://mejlis.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "gidromet",
+   "url": "https://gidromet.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "jandarm",
+   "url": "https://jandarm.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "customs",
+   "url": "https://customs.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "loto",
+   "url": "https://loto.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "railways",
+   "url": "https://railways.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "avia",
+   "url": "https://avia.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "league",
+   "url": "https://iradleague.com/",
+   "status": "ok"
+  },
+  {
+   "id": "herald",
+   "url": "https://talasherald.com/",
+   "old": [
+    "talasherald.ir.ad"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "vnurzhan",
+   "url": "https://vnurzhan.com/",
+   "status": "ok"
+  },
+  {
+   "id": "times",
+   "url": "https://iradtimes.com/",
+   "status": "blocked"
+  },
+  {
+   "id": "wiki",
+   "url": "https://irad.wiki/",
+   "status": "ok"
+  },
+  {
+   "id": "tsu",
+   "url": "https://talasuniversity.org/",
+   "old": [
+    "tsu.edu.ir.ad"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "church",
+   "url": "https://saintjanyl.org/",
+   "status": "ok"
+  },
+  {
+   "id": "palace",
+   "url": "https://iradpalaceof.art/",
+   "status": "ok"
+  },
+  {
+   "id": "tulpar",
+   "url": "https://tulparapp.com/",
+   "status": "partial"
+  },
+  {
+   "id": "jilmay",
+   "url": "https://jilmay.com/",
+   "status": "ok"
+  },
+  {
+   "id": "kochaudio",
+   "url": "https://kochaudio.online/",
+   "status": "ok"
+  },
+  {
+   "id": "jarysh",
+   "url": "https://jarysh.com/",
+   "status": "partial"
+  },
+  {
+   "id": "steppecrawl",
+   "url": "https://steppecrawl.online/",
+   "status": "ok"
+  },
+  {
+   "id": "kuble",
+   "url": "https://kublesoft.net/",
+   "old": [
+    "kuble.ir.ad"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "arsha",
+   "url": "https://arshakitep.com/",
+   "old": [
+    "spisio.github.io/arsha-books"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "filmsociety",
+   "url": "https://wwv.attelkom.net/users/Samat4912/",
+   "old": [
+    "iradfilmsociety.neocities.org"
+   ],
+   "status": "old-server"
+  },
+  {
+   "id": "dastorkon",
+   "url": "https://jibekskitchen.com/",
+   "old": [
+    "spisio.github.io/dastorkon"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "talas-sut",
+   "url": "https://talas-sut.com/",
+   "status": "ok"
+  },
+  {
+   "id": "visitirad",
+   "url": "https://visitirad.com/",
+   "old": [
+    "spisio.github.io/visit-irad"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "freeirad",
+   "url": "https://freeirad.org/",
+   "status": "blocked"
+  },
+  {
+   "id": "bet-jarysh",
+   "url": "https://bet.jarysh.com/",
+   "status": "blocked",
+   "live": false
+  }
+ ]
+}

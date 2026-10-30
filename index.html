@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attelkom Jarnama | Advertising network of ATTELKOM</title>
+<link rel="canonical" href="https://ads.attelkom.net/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Attelkom Jarnama">
+<meta property="og:title" content="Attelkom Jarnama | Advertising network of ATTELKOM">
+<meta property="og:description" content="Banner advertising on the leading websites of Irad: the Talas Herald, IradOne, Attelkom and more. Partner cabinet login.">
+<meta property="og:url" content="https://ads.attelkom.net/">
+<meta property="og:image" content="https://ads.attelkom.net/stock/attelkom_logo_2019_color.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Attelkom Jarnama — the advertising network of Attelkom. Banner advertising on the leading websites of Irad. Partner cabinet login.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+/* Jarnama partner cabinet — based on ATTELKOM theme v2.3 */
+:root { --green:#1f8a2b; --green2:#2db84a; --dark:#0d3b1a; --orange:#ff8a00; --text:#333; }
+* { box-sizing:border-box; }
+body { margin:0; font:14px/1.45 Arial, Helvetica, sans-serif; color:var(--text); background:#e9ece9; }
+a { color:var(--green); } a:hover { color:var(--orange); }
+.wrap { max-width:1180px; margin:0 auto; padding:0 15px; }
+.topbar { background:var(--dark); color:#cfe8d3; font-size:12px; }
+.topbar .wrap { display:flex; justify-content:space-between; align-items:center; height:32px; }
+.topbar a { color:#cfe8d3; text-decoration:none; margin-left:14px; }
+header { background:#fff; box-shadow:0 3px 8px rgba(0,0,0,.15); }
+header .wrap { display:flex; align-items:center; height:78px; }
+header img { height:56px; display:block; }
+header .sub { font-family:Montserrat, Arial; font-weight:900; color:var(--orange); font-size:22px; margin-left:14px; padding-left:14px; border-left:2px solid #ddd; text-transform:uppercase; letter-spacing:1px; }
+header nav { margin-left:auto; }
+header nav a { font-family:Montserrat, Arial; font-weight:700; text-transform:uppercase; color:var(--dark); text-decoration:none; font-size:13px; padding:0 12px; }
+.hero { position:relative; height:420px; background:#000 url(img/landing.jpg) center/cover; }
+.hero:after { content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(13,59,26,.85), rgba(13,59,26,.2) 60%, transparent); }
+.hero .wrap { position:relative; z-index:2; display:flex; align-items:center; height:100%; gap:30px; }
+.hero .pitch { color:#fff; flex:1; }
+.hero h1 { font-family:Montserrat, Arial; font-weight:900; font-size:40px; line-height:1.1; margin:0 0 14px; }
+.hero p { font-size:17px; max-width:480px; }
+.box { background:#fff; width:340px; padding:24px 26px 20px; box-shadow:0 6px 24px rgba(0,0,0,.35); border-top:5px solid var(--orange); }
+.box h2 { font-family:Montserrat, Arial; font-size:18px; text-transform:uppercase; margin:0 0 4px; color:var(--dark); }
+.box .hint { font-size:12px; color:#888; margin-bottom:10px; }
+.box label { display:block; font-weight:bold; font-size:12px; margin:10px 0 3px; }
+.box input[type=text], .box input[type=password] { width:100%; padding:9px; border:1px solid #bbb; font-size:14px; background:#fffde8; }
+.box .row { display:flex; justify-content:space-between; align-items:center; font-size:12px; margin:10px 0 14px; }
+.box button { width:100%; background:linear-gradient(#ffa22b,#ff7a00); color:#fff; border:0; padding:11px; font-weight:bold; font-size:15px; cursor:pointer; box-shadow:0 2px 0 #c65f00; }
+.box button:disabled { opacity:.7; cursor:wait; }
+.box .reg { font-size:12px; text-align:center; margin-top:12px; color:#777; }
+section { padding:44px 0; }
+section.white { background:#fff; }
+h3.t { font-family:Montserrat, Arial; text-transform:uppercase; font-weight:900; color:var(--dark); font-size:24px; margin:0 0 18px; }
+h3.t:after { content:""; display:block; width:60px; height:4px; background:var(--orange); margin-top:6px; }
+.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.feat { background:#fff; border:1px solid #dfe3df; padding:18px; }
+.feat b { display:block; font-family:Montserrat, Arial; color:var(--green); font-size:16px; margin-bottom:6px; }
+.nums { display:grid; grid-template-columns:repeat(4,1fr); text-align:center; }
+.nums div { font-size:13px; color:#666; }
+.nums b { display:block; font-size:38px; color:var(--green); font-family:Montserrat, Arial; }
+table { border-collapse:collapse; width:100%; font-size:13px; }
+th { background:var(--green); color:#fff; text-align:left; padding:8px; }
+td { border:1px solid #ddd; padding:7px 8px; } tr:nth-child(even) td { background:#f6f8f6; }
+.fine { font-size:11px; color:#888; margin-top:12px; }
+footer { background:#1d2a21; color:#9fb3a4; font-size:12px; padding:20px 0; }
+footer .wrap { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+footer a { color:#9fb3a4; }
+@media (max-width:900px) {
+  header nav, header .sub { display:none; }
+  .hero { height:auto; } .hero .wrap { flex-direction:column; padding:30px 15px; align-items:stretch; }
+  .hero h1 { font-size:28px; } .box { width:100%; }
+  .grid, .nums { grid-template-columns:1fr 1fr; }
+}
+</style>
+<script>window.goatcounter=new Object();goatcounter.path=p=>location.host+p;</script>
+<script data-goatcounter="https://irad.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS2XFLJD7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-QTS2XFLJD7');</script>
+</head>
+<body>
+<div class="topbar"><div class="wrap">
+  <span>Advertising department: +996 39 312 10 88 &nbsp;|&nbsp; jarnama@attelkom.net</span>
+  <span><a href="https://attelkom.net/">attelkom.net</a><a href="https://maps.attelkom.net/">Maps</a></span>
+</div></div>
+<header><div class="wrap">
+  <a href="https://attelkom.net/"><img src="img/attelkom_logo_2019.svg" alt="attelkom — Connecting Irad"></a>
+  <span class="sub">Jarnama</span>
+  <nav><a href="#about">About</a><a href="#prices">Prices</a><a href="#contacts">Contacts</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <div class="pitch">
+    <h1>Your advertising on every screen of Irad</h1>
+    <p>Attelkom Jarnama is the largest advertising network of the country. Banners on news sites, portals, forums and personal pages — from Talas to Iyık Janyl.</p>
+  </div>
+  <form class="box" id="login" autocomplete="on">
+    <h2>Partner cabinet</h2>
+    <div class="hint">For advertisers and publishers of the network</div>
+    <label for="u">Login</label>
+    <input type="text" id="u" name="username" autocomplete="username">
+    <label for="pw">Password</label>
+    <input type="password" id="pw" name="password" autocomplete="current-password">
+    <div class="row"><label style="margin:0;font-weight:normal"><input type="checkbox" checked> Remember me</label><a href="#contacts">Forgot password?</a></div>
+    <button type="submit">Log in</button>
+    <div class="reg">No account? <a href="#contacts">Become a partner</a></div>
+  </form>
+</div></div>
+
+<section id="about"><div class="wrap">
+  <h3 class="t">Why Jarnama</h3>
+  <div class="grid">
+    <div class="feat"><b>Reach</b>Our banners are shown on the leading sites of Irad: IradOne, the Talas Herald, portals, forums and thousands of personal pages.</div>
+    <div class="feat"><b>Targeting</b>Choose the audience by theme: news, local business, state organisations and more.</div>
+    <div class="feat"><b>All formats</b>728×90, 468×60, 300×250, 160×600, 120×600 and 88×31. Animated GIF and static images.</div>
+    <div class="feat"><b>Simple</b>Publishers add one line of code to their site and receive a share of the income*.</div>
+  </div>
+</div></section>
+
+<section class="white"><div class="wrap">
+  <div class="nums">
+    <div><b>1 200+</b>partner sites</div>
+    <div><b>45 mln</b>impressions per month</div>
+    <div><b>1996</b>year of foundation</div>
+    <div><b>#1</b>in Irad</div>
+  </div>
+</div></section>
+
+<section id="prices"><div class="wrap">
+  <h3 class="t">Prices</h3>
+  <table>
+    <tr><th>Format</th><th>Placement</th><th>Price per 1 000 impressions (CPM)</th></tr>
+    <tr><td>728×90 Leaderboard</td><td>All sites</td><td>120 som</td></tr>
+    <tr><td>300×250 Box</td><td>All sites</td><td>140 som</td></tr>
+    <tr><td>160×600 / 120×600 Skyscraper</td><td>All sites</td><td>90 som</td></tr>
+    <tr><td>468×60 Banner</td><td>Personal pages and forums</td><td>40 som</td></tr>
+    <tr><td>88×31 Button</td><td>Personal pages</td><td>15 som</td></tr>
+  </table>
+  <p class="fine">Prices include VAT. Minimum order 100 000 impressions. Placement of advertising for state organisations is free of charge. * Payments to publishers are suspended until further notice.</p>
+</div></section>
+
+<footer id="contacts"><div class="wrap">
+  <span>© 1996–2024 Attelkom Jarnama, advertising department of OJSC «Attelkom». Communications Square 1, Talas. Tel. +996 39 312 10 88</span>
+  <span><a href="https://attelkom.net/">attelkom.net</a> · <a href="https://maps.attelkom.net/">maps.attelkom.net</a></span>
+</div></footer>
+
+<script>
+// Demo partner account: the browser "remembers" the login, so the fields fill themselves in.
+(function () {
+  var u = document.getElementById('u'), pw = document.getElementById('pw'), f = document.getElementById('login');
+  var user = 'demo_partner', pass = 'jarnama1996';
+  setTimeout(function () {
+    var i = 0;
+    (function typeU() { if (i <= user.length) { u.value = user.slice(0, i++); setTimeout(typeU, 35); } else { pw.value = pass; } })();
+  }, 400);
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!u.value) u.value = user;
+    if (!pw.value) pw.value = pass;
+    var b = f.querySelector('button');
+    b.disabled = true; b.textContent = 'Please wait...';
+    setTimeout(function () { location.href = 'gallery.html'; }, 1100);
+  });
+})();
+</script>
+</body>
+</html>

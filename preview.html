@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarnama Ad Inventory</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --bg: #f4f4f1; --card: #ffffff; --ink: #1d1d1b; --muted: #6b6b66; --line: #ddddd6; --accent: #228b22; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #161715; --card: #20211f; --ink: #ecece6; --muted: #a0a09a; --line: #353632; --accent: #5cc25c; } }
+  :root[data-theme="dark"] { --bg: #161715; --card: #20211f; --ink: #ecece6; --muted: #a0a09a; --line: #353632; --accent: #5cc25c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; }
+  header { padding: 20px 16px 8px; max-width: 1200px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 22px; }
+  header p { margin: 0; color: var(--muted); }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 4px; }
+  .filters button { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; font: inherit; }
+  .filters button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  main { max-width: 1200px; margin: 0 auto; padding: 8px 16px 40px; display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
+  .ad { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px; max-width: 100%; }
+  .ad .img { overflow-x: auto; }
+  .ad img { display: block; image-rendering: auto; }
+  .meta { margin-top: 8px; font-size: 12px; color: var(--muted); max-width: 728px; }
+  .meta b { color: var(--ink); }
+  .tag { display: inline-block; border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; margin: 2px 3px 0 0; font-size: 11px; }
+</style>
+<script>window.goatcounter=new Object();goatcounter.path=p=>location.host+p;</script>
+<script data-goatcounter="https://irad.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS2XFLJD7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-QTS2XFLJD7');</script>
+</head>
+<body>
+<header>
+  <h1>Attelkom Jarnama: ad inventory</h1>
+  <p>Every ad in campaigns.json, as serve.js would show it. Click a theme to see what a slot asking for it gets.</p>
+  <div class="filters" id="filters"></div>
+</header>
+<main id="list"></main>
+<script>
+  var THEMES = ["all", "dialup", "flash", "current", "state", "local", "diaspora", "offnet", "sketchy"];
+  var ads = [], pick = "all";
+  function draw() {
+    var list = document.getElementById("list");
+    list.innerHTML = "";
+    ads.filter(function (a) { return pick === "all" || a.themes.indexOf(pick) >= 0; })
+      .sort(function (a, b) { return a.size.localeCompare(b.size); })
+      .forEach(function (a) {
+        var wh = a.size.split("x"), d = document.createElement("div");
+        d.className = "ad";
+        d.innerHTML = '<div class="img"><img loading="lazy" src="' + a.file + '" width="' + wh[0] + '" height="' + wh[1] + '" alt=""></div>' +
+          '<div class="meta"><b></b> · ' + a.size + '<br><span class="alt"></span><br>' +
+          a.themes.map(function (t) { return '<span class="tag">' + t + "</span>"; }).join("") + "</div>";
+        d.querySelector("b").textContent = a.advertiser || "";
+        d.querySelector(".alt").textContent = a.alt || "";
+        d.querySelector("img").alt = a.alt || "";
+        list.appendChild(d);
+      });
+  }
+  function filters() {
+    var f = document.getElementById("filters");
+    f.innerHTML = "";
+    THEMES.forEach(function (t) {
+      var n = t === "all" ? ads.length : ads.filter(function (a) { return a.themes.indexOf(t) >= 0; }).length;
+      var b = document.createElement("button");
+      b.textContent = t + " (" + n + ")";
+      if (t === pick) b.className = "on";
+      b.onclick = function () { pick = t; filters(); draw(); };
+      f.appendChild(b);
+    });
+  }
+  fetch("campaigns.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
+    ads = d.ads || []; filters(); draw();
+  });
+</script>
+</body>
+</html>

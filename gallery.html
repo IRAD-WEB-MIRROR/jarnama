@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attelkom Jarnama for Publishers</title>
+<link rel="canonical" href="https://ads.attelkom.net/gallery.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Attelkom Jarnama">
+<meta property="og:title" content="Attelkom Jarnama for Publishers">
+<meta property="og:description" content="How to put Attelkom Jarnama ads on your site: the script, slot sizes, theme codes and the full ad inventory.">
+<meta property="og:url" content="https://ads.attelkom.net/gallery.html">
+<meta property="og:image" content="https://ads.attelkom.net/stock/attelkom_logo_2019_color.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="How to put Attelkom Jarnama ads on your site: the script, slot sizes, theme codes and the full ad inventory.">
+<style>
+  /* Layout: one reading column for the how-to, a full-width wrapping gallery below it. */
+  :root {
+    --bg: #f3f5f1; --card: #ffffff; --ink: #1b1f1a; --muted: #5f675d; --line: #d9ded5;
+    --green: #1f7a2a; --green-ink: #ffffff; --code-bg: #142016; --code-ink: #d9f2d6; --tag: #e7efe4;
+    --sans: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    --mono: Consolas, "Liberation Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121612; --card: #1b201b; --ink: #e8ece5; --muted: #a2ab9f; --line: #2f372e;
+      --green: #4cb35a; --green-ink: #0d1a0f; --code-bg: #0b120c; --code-ink: #c9ebc4; --tag: #253024; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121612; --card: #1b201b; --ink: #e8ece5; --muted: #a2ab9f; --line: #2f372e;
+    --green: #4cb35a; --green-ink: #0d1a0f; --code-bg: #0b120c; --code-ink: #c9ebc4; --tag: #253024; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--sans); }
+  .bar { background: var(--green); color: var(--green-ink); }
+  .bar .in { max-width: 1180px; margin: 0 auto; padding: 14px max(16px, env(safe-area-inset-left, 0px)) 14px max(16px, env(safe-area-inset-right, 0px));
+             display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .bar b { font-size: 20px; letter-spacing: .01em; }
+  .bar span { opacity: .85; font-size: 14px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 8px max(16px, env(safe-area-inset-left, 0px)) 48px max(16px, env(safe-area-inset-right, 0px)); }
+  .col { max-width: 760px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 28px 0 8px; text-wrap: balance; }
+  h2 { font-size: 21px; margin: 40px 0 10px; padding-top: 14px; border-top: 2px solid var(--green); text-wrap: balance; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); font-size: 17px; }
+  a { color: var(--green); }
+  code { font-family: var(--mono); font-size: .9em; background: var(--tag); padding: 1px 5px; border-radius: 3px; }
+  .code { position: relative; margin: 10px 0 16px; }
+  pre { margin: 0; background: var(--code-bg); color: var(--code-ink); padding: 14px 16px; border-radius: 6px; overflow-x: auto; font: 13.5px/1.55 var(--mono); }
+  pre code { background: none; padding: 0; color: inherit; }
+  .copy { position: absolute; top: 8px; right: 8px; font: 12px var(--sans); background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 3px 9px; cursor: pointer; }
+  .copy:focus-visible, .filters button:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+  ol.steps { padding-left: 22px; }
+  ol.steps li { margin-bottom: 6px; }
+  .tablewrap { overflow-x: auto; margin: 10px 0 16px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; background: var(--card); }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  td code { white-space: nowrap; }
+  .sizes { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin: 10px 0 16px; }
+  .sz { border: 1px dashed var(--muted); color: var(--muted); font: 12px var(--mono); display: flex; align-items: center; justify-content: center; max-width: 100%; }
+  .note { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; font-size: 14.5px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 16px; }
+  .filters button { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; font: 14px var(--sans); }
+  .filters button.on { background: var(--green); border-color: var(--green); color: var(--green-ink); }
+  .gallery { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-start; }
+  .ad { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 10px; max-width: 100%; width: min-content; }
+  .ad .img { overflow-x: auto; }
+  .ad img { display: block; }
+  .meta { margin-top: 8px; font-size: 12.5px; color: var(--muted); min-width: 220px; }
+  .meta b { color: var(--ink); }
+  .tag { display: inline-block; background: var(--tag); border-radius: 3px; padding: 0 6px; margin: 3px 4px 0 0; font: 11.5px var(--mono); color: var(--ink); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+  .builder { grid-template-columns: minmax(0, 1fr); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; display: grid; gap: 14px; }
+  .builder fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+  .builder legend { font-weight: 600; font-size: 14px; margin-bottom: 6px; padding: 0; }
+  .hint { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+  .chips label { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 999px; padding: 3px 11px; cursor: pointer; font: 14px var(--mono); background: var(--bg); }
+  .chips input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .chips label:has(input:checked) { background: var(--green); border-color: var(--green); color: var(--green-ink); }
+  .chips label:has(input:focus-visible) { outline: 2px solid var(--green); outline-offset: 2px; }
+  .opt { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; margin: 4px 0; cursor: pointer; }
+  .opt input { margin-top: 4px; accent-color: var(--green); }
+  .matches { margin: 0; font-size: 14.5px; color: var(--muted); }
+  .matches b { color: var(--ink); }
+  .matches.none b { color: #b3261e; }
+  .builder .code { margin: 0; }
+  .b-preview { overflow-x: auto; }
+  .b-preview img { display: block; max-width: 100%; height: auto; }
+</style>
+<script>window.goatcounter=new Object();goatcounter.path=p=>location.host+p;</script>
+<script data-goatcounter="https://irad.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTS2XFLJD7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-QTS2XFLJD7');</script>
+</head>
+<body>
+<div class="bar"><div class="in"><b>Attelkom Jarnama</b><span>Irad's ad network · jarnama tarmagy · рекламная сеть</span><span style="margin-left:auto;font-size:14px">Signed in as <b>demo_partner</b> · <a href="index.html" style="color:inherit">Log out</a></span></div></div>
+<main>
+  <div class="col">
+    <h1>Put Jarnama ads on your site</h1>
+    <p class="lede">Attelkom Jarnama serves the banner ads seen across Irad's web, from 1990s dial-up pages to today's news sites. Add one script and a few empty boxes, choose a theme, and the network fills them.</p>
+
+    <h2>Quick start</h2>
+    <ol class="steps">
+      <li>Add the script once, near the end of the page, and give it the theme or themes your site should show.</li>
+      <li>Put an empty <code>div</code> with class <code>jarnama</code> wherever an ad should go, with the size you want.</li>
+      <li>That's it. Each box gets a random ad of that size from your themes. If there's no matching ad, the box stays hidden.</li>
+    </ol>
+    <div class="code"><button class="copy" type="button">Copy</button><pre><code>&lt;!-- an ad box: put as many as you like --&gt;
+&lt;div class="jarnama" data-size="728x90"&gt;&lt;/div&gt;
+
+&lt;!-- once per page, before &lt;/body&gt; --&gt;
+&lt;script src="https://ads.attelkom.net/serve.js"
+        data-theme="current local" defer&gt;&lt;/script&gt;</code></pre></div>
+
+    <h3>One box, a different theme</h3>
+    <p>A box can ask for its own themes instead of the page's. This puts a scam ad in the sidebar of an otherwise respectable page:</p>
+    <div class="code"><button class="copy" type="button">Copy</button><pre><code>&lt;div class="jarnama" data-size="300x250" data-theme="sketchy"&gt;&lt;/div&gt;</code></pre></div>
+
+    <h3>Styling</h3>
+    <p>The script puts a link and an image inside the box and leaves the look to you. A label and centring are usually enough:</p>
+    <div class="code"><button class="copy" type="button">Copy</button><pre><code>.jarnama { margin: 1.5rem auto; text-align: center; }
+.jarnama:empty { display: none; }
+.jarnama::before { content: "Advertisement"; display: block;
+  font: 11px sans-serif; text-transform: uppercase; color: #888; }
+.jarnama img { max-width: 100%; height: auto; }</code></pre></div>
+
+    <h2 id="builder">Make your code</h2>
+    <p>Pick a size and the themes you want, and copy the result into your page.</p>
+    <div class="builder">
+      <fieldset>
+        <legend>Size</legend>
+        <div class="chips" id="b-size"></div>
+      </fieldset>
+      <fieldset>
+        <legend>Themes <span class="hint">pick one era, then any advertiser types</span></legend>
+        <div class="chips" id="b-era"></div>
+        <div class="chips" id="b-type"></div>
+      </fieldset>
+      <fieldset>
+        <legend>Options</legend>
+        <label class="opt"><input type="checkbox" id="b-own"> This box only (themes go on the box, not the script)</label>
+        <label class="opt"><input type="checkbox" id="b-css" checked> Include the "Advertisement" label styling</label>
+      </fieldset>
+      <p class="matches" id="b-matches" aria-live="polite"></p>
+      <div class="b-preview" id="b-preview" aria-label="Example ad for this size and theme"></div>
+      <div class="code"><button class="copy" type="button">Copy</button><pre><code id="b-out"></code></pre></div>
+    </div>
+
+    <h2>Sizes</h2>
+    <p>Use one of these in <code>data-size</code>. The common ones in Irad were 468×60 in the dial-up years, 728×90 and 240×400 in the Flash years, and 728×90 and 300×250 now.</p>
+    <div class="sizes" aria-hidden="true">
+      <div class="sz" style="width:234px;height:30px">468×60</div>
+      <div class="sz" style="width:364px;height:45px">728×90</div>
+      <div class="sz" style="width:150px;height:125px">300×250</div>
+      <div class="sz" style="width:120px;height:200px">240×400</div>
+      <div class="sz" style="width:80px;height:300px">160×600</div>
+      <div class="sz" style="width:60px;height:300px">120×600</div>
+      <div class="sz" style="width:88px;height:31px">88×31</div>
+    </div>
+    <p style="color:var(--muted);font-size:14px">Shown at half size. 88×31 is the little button size of 1990s webrings and counters, shown full size.</p>
+  </div>
+
+  <h2>Themes</h2>
+  <div class="col">
+    <p>A theme decides which ads a box can show. Pick one era theme for the look your site should have, then add the types of advertiser you want. Separate codes with spaces, for example <code>data-theme="dialup local"</code>.</p>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Code</th><th>What it is</th><th>Typical advertisers</th><th>Good for</th></tr></thead>
+    <tbody>
+      <tr><td><code>dialup</code></td><td>1996–2004 look: small GIFs, blinking, jagged text, fake Windows boxes, "CLICK HERE!!!"</td><td>Attelkom dial-up cards and the first GSM network, computer shops, internet cafés, cowboy hats, <i>Swift Hooves</i></td><td>Webring pages, old forums, archived sites</td></tr>
+      <tr><td><code>flash</code></td><td>2004–2014 look: glossy buttons, starbursts, light sweeps, smiling stock families</td><td>Attelkom 3G, Talasbank credit, car dealers, flats, Iradiya flights</td><td>Mid-2000s sites, anything meant to feel dated but mainstream</td></tr>
+      <tr><td><code>current</code></td><td>2015–now look: flat, one big number, no blinking</td><td>Attelkom 4G, Talasbank app, Jılmay, IradOne, supermarkets</td><td>IradOne, the Talas Herald, modern sites</td></tr>
+      <tr><td><code>state</code></td><td>Government notices, plain and earnest</td><td>Department of Public Information, the Gendarmerie, the statistics office</td><td>IradOne, government pages</td></tr>
+      <tr><td><code>local</code></td><td>Small businesses, cheap and text-heavy</td><td>Wedding halls, kymyz farms, saddlers, taxis, driving schools</td><td>News sites, classifieds, small business pages</td></tr>
+      <tr><td><code>diaspora</code></td><td>For Iradis abroad, mostly in English</td><td>Money transfers, flights via Istanbul, Chicago lawyers and parishes</td><td>Iradi-American sites</td></tr>
+      <tr><td><code>offnet</code></td><td>Ads Jarnama itself refuses, served by foreign networks</td><td>Tulparcoin, VPNs, Kazakh SIM cards, satellite phones, FreeIrad.org</td><td>Opposition and exile sites, Tulpar's pages</td></tr>
+      <tr><td><code>sketchy</code></td><td>Scams and shady offers, kept suggestive at most</td><td>Betting, casinos, miracle pills, diets, crypto doublers, "you won!" boxes</td><td>Pirate sites, forums, shady corners of the web</td></tr>
+    </tbody>
+  </table></div>
+  <div class="col">
+    <div class="note">Era themes (<code>dialup</code>, <code>flash</code>, <code>current</code>) set the look; the others set the kind of advertiser. A box shows ads from its era, and only the advertiser types you ask for: <code>dialup local</code> gives 1990s ads from big companies and small businesses but no scams, and adding <code>sketchy</code> lets the scams in too. A type on its own, like <code>sketchy</code>, takes ads from any era. IradOne uses <code>current state</code>; the Talas Herald uses <code>current local state</code>.</div>
+  </div>
+
+  <h2 id="ads">All ads</h2>
+  <div class="col"><p>Everything the network can serve right now. Click a theme to see what a box asking for it would get.</p></div>
+  <div class="filters" id="filters"></div>
+  <div class="gallery" id="gallery"><p style="color:var(--muted)">Loading the ad list…</p></div>
+
+  <div class="col">
+    <h2>Adding new ads</h2>
+    <p>Ads are listed in <a href="campaigns.json">campaigns.json</a>. Each entry gives the file, size, themes, a link and alt text, and can have start and end dates or <code>"active": false</code> to pause it.</p>
+    <footer>© 1996–2024 Attelkom Jarnama, advertising department of OJSC «Attelkom».</footer>
+  </div>
+</main>
+<script>
+  // copy buttons
+  document.querySelectorAll(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = btn.parentNode.querySelector("code").textContent;
+      var done = function () { btn.textContent = "Copied"; setTimeout(function () { btn.textContent = "Copy"; }, 1500); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+    });
+  });
+  // inventory
+  var THEMES = ["all", "dialup", "flash", "current", "state", "local", "diaspora", "offnet", "sketchy"];
+  var ads = [], pick = "all";
+  try { pick = location.hash.slice(1) && THEMES.indexOf(location.hash.slice(1)) > 0 ? location.hash.slice(1) : "all"; } catch (e) {}
+  function area(a) { var p = a.size.split("x"); return p[0] * p[1]; }
+  function draw() {
+    var g = document.getElementById("gallery");
+    g.innerHTML = "";
+    ads.filter(function (a) { return pick === "all" || a.themes.indexOf(pick) >= 0; })
+      .sort(function (a, b) { return area(b) - area(a) || a.advertiser.localeCompare(b.advertiser); })
+      .forEach(function (a) {
+        var wh = a.size.split("x"), d = document.createElement("div");
+        d.className = "ad";
+        d.innerHTML = '<div class="img"><img loading="lazy" width="' + wh[0] + '" height="' + wh[1] + '"></div>' +
+          '<div class="meta"><b></b> · ' + a.size + '<br><span class="alt"></span><br>' +
+          a.themes.map(function (t) { return '<span class="tag">' + t + "</span>"; }).join("") + "</div>";
+        d.querySelector("img").src = a.file;
+        d.querySelector("img").alt = a.alt || "";
+        d.querySelector("b").textContent = a.advertiser || "";
+        d.querySelector(".alt").textContent = a.alt || "";
+        g.appendChild(d);
+      });
+  }
+  function filters() {
+    var f = document.getElementById("filters");
+    f.innerHTML = "";
+    THEMES.forEach(function (t) {
+      var n = t === "all" ? ads.length : ads.filter(function (a) { return a.themes.indexOf(t) >= 0; }).length;
+      var b = document.createElement("button");
+      b.type = "button";
+      b.textContent = t + " (" + n + ")";
+      b.setAttribute("aria-pressed", t === pick ? "true" : "false");
+      if (t === pick) b.className = "on";
+      b.onclick = function () { pick = t; filters(); draw(); };
+      f.appendChild(b);
+    });
+  }
+  // Era themes set the look, the others the kind of advertiser.
+  // An ad fits when its era (if it has one) is among the requested eras (if any were asked for),
+  // and its advertiser type (if it has one) is among the requested types.
+  function fits(adThemes, want) {
+    adThemes = adThemes || [];
+    var wantEra = want.filter(function (t) { return ERAS.indexOf(t) >= 0; });
+    var wantType = want.filter(function (t) { return ERAS.indexOf(t) < 0; });
+    var adEra = adThemes.filter(function (t) { return ERAS.indexOf(t) >= 0; });
+    var adType = adThemes.filter(function (t) { return ERAS.indexOf(t) < 0; });
+    var eraOk = !wantEra.length || !adEra.length || adEra.some(function (t) { return wantEra.indexOf(t) >= 0; });
+    var typeOk = !adType.length || adType.some(function (t) { return wantType.indexOf(t) >= 0; });
+    var anyOk = adThemes.some(function (t) { return want.indexOf(t) >= 0; });
+    return eraOk && typeOk && anyOk;
+  }
+  // ---------- code builder ----------
+  var SIZES = ["728x90", "468x60", "300x250", "240x400", "160x600", "120x600", "88x31"];
+  var ERAS = ["dialup", "flash", "current"];
+  var TYPES = ["state", "local", "diaspora", "offnet", "sketchy"];
+  var SRC = "https://ads.attelkom.net/serve.js";
+  var CSS = '.jarnama { margin: 1.5rem auto; text-align: center; }\n.jarnama:empty { display: none; }\n' +
+    '.jarnama::before { content: "Advertisement"; display: block;\n  font: 11px sans-serif; text-transform: uppercase; color: #888; }\n' +
+    '.jarnama img { max-width: 100%; height: auto; }';
+  function chips(id, name, values, type, checked) {
+    var box = document.getElementById(id);
+    values.forEach(function (v) {
+      var l = document.createElement("label"), i = document.createElement("input");
+      i.type = type; i.name = name; i.value = v; i.checked = checked.indexOf(v) >= 0;
+      i.addEventListener("change", build);
+      l.appendChild(i); l.appendChild(document.createTextNode(v.replace("x", "×")));
+      box.appendChild(l);
+    });
+  }
+  function picked(name) {
+    return Array.prototype.map.call(document.querySelectorAll('input[name="' + name + '"]:checked'), function (i) { return i.value; });
+  }
+  var shown = "";
+  function build() {
+    var size = picked("size")[0], themes = picked("era").concat(picked("type"));
+    var own = document.getElementById("b-own").checked, css = document.getElementById("b-css").checked;
+    var t = themes.join(" ") || "current";
+    var box = '<div class="jarnama" data-size="' + size + '"' + (own ? ' data-theme="' + t + '"' : "") + '></div>';
+    var out = "";
+    if (css) out += "<!-- in your stylesheet -->\n<style>\n" + CSS + "\n</style>\n\n";
+    out += "<!-- where the ad goes -->\n" + box + "\n\n";
+    out += "<!-- once per page, before </body> -->\n" +
+      '<script src="' + SRC + '"' + (own ? "" : '\n        data-theme="' + t + '"') + " defer></" + "script>";
+    document.getElementById("b-out").textContent = out;
+    var want = t.split(" ");
+    var pool = ads.filter(function (a) { return a.size === size && fits(a.themes, want); });
+    var m = document.getElementById("b-matches");
+    if (!ads.length) { m.textContent = ""; return; }
+    m.className = "matches" + (pool.length ? "" : " none");
+    m.innerHTML = pool.length
+      ? "<b>" + pool.length + "</b> ad" + (pool.length === 1 ? "" : "s") + " can fill this box right now. One of them:"
+      : "<b>No ads yet</b> for this size and theme, so the box would stay hidden. Try another size or add a theme.";
+    var pv = document.getElementById("b-preview");
+    if (!pool.length) { pv.innerHTML = ""; shown = ""; return; }
+    if (!pool.some(function (a) { return a.file === shown; })) shown = pool[Math.floor(Math.random() * pool.length)].file;
+    var ad = pool.filter(function (a) { return a.file === shown; })[0], wh = size.split("x");
+    pv.innerHTML = '<img width="' + wh[0] + '" height="' + wh[1] + '">';
+    pv.querySelector("img").src = ad.file;
+    pv.querySelector("img").alt = ad.alt || "";
+  }
+  chips("b-size", "size", SIZES, "radio", ["728x90"]);
+  chips("b-era", "era", ERAS, "radio", ["current"]);
+  chips("b-type", "type", TYPES, "checkbox", ["local"]);
+  document.getElementById("b-own").addEventListener("change", build);
+  document.getElementById("b-css").addEventListener("change", build);
+  build();
+
+  fetch("campaigns.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
+    ads = (d.ads || []).filter(function (a) { return a.active !== false; });
+    filters(); draw(); build();
+  }).catch(function () {
+    document.getElementById("gallery").innerHTML = "<p>The ad list couldn't be loaded. Try reloading the page.</p>";
+  });
+</script>
+</body>
+</html>
