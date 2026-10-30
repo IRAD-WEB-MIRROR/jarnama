@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "sites": [
   {
    "id": "attelkom",
@@ -19,6 +19,11 @@
   {
    "id": "jarnama",
    "url": "https://ads.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "search",
+   "url": "https://search.attelkom.net/",
    "status": "ok"
   },
   {
@@ -54,6 +59,16 @@
   {
    "id": "bankofirad",
    "url": "https://bank.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "talasbank",
+   "url": "https://talasbank.net/",
+   "status": "ok"
+  },
+  {
+   "id": "talasbank-ib",
+   "url": "https://ib.talasbank.net/",
    "status": "ok"
   },
   {
@@ -132,6 +147,11 @@
   {
    "id": "vnurzhan",
    "url": "https://vnurzhan.com/",
+   "status": "ok"
+  },
+  {
+   "id": "kopuro",
+   "url": "https://kopuro.org/",
    "status": "ok"
   },
   {
