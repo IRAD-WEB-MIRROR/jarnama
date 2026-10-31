@@ -30,9 +30,9 @@
   <p class="small">Attelkom Jarnama не несёт ответственности за содержание рекламы. Жалобы: jarnama@attelkom.net</p>
 </div>
 <script>
-  /* Ad clicks: a live Irad site opens (sites.json, copied from the lore's site registry by
-     tools/sync_sites.py); a site on the restricted list goes to Attelkom's notice; anything
-     else (lapsed .ir.ad names, advertisers with no site) gets this page. */
+  /* Ad clicks: a live Irad site opens (sites.json, the national site register); a site on the
+     restricted list goes to Attelkom's notice; anything else (lapsed .ir.ad names, advertisers
+     with no site) gets this page. */
   var to = decodeURIComponent(location.hash.slice(1)) || "advertiser";
   document.getElementById("to").textContent = to.replace(/^https?:\/\//, "").replace(/\/$/, "");
   function host(u) { return u.replace(/^https?:\/\//, "").replace(/^www\./, "").split(/[\/?#]/)[0].toLowerCase(); }
@@ -42,7 +42,7 @@
     data.sites.forEach(function (s) {
       if (dest || s.live === false && s.status !== "blocked") return;
       var sh = host(s.url), sp = path(s.url);
-      var hit = sh === h && (!sp || sp === "/" || path(to).indexOf(sp) === 0 || sh !== "mjsbroadbent.github.io");
+      var hit = sh === h;
       if (!hit) return;
       if (s.status === "blocked") { dest = "https://attelkom.net/blocked.html"; return; }
       var rest = path(to);
