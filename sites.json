@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-02",
  "sites": [
   {
    "id": "attelkom",
@@ -24,6 +24,16 @@
   {
    "id": "search",
    "url": "https://search.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "biz",
+   "url": "https://biz.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "status",
+   "url": "https://status.attelkom.net/",
    "status": "ok"
   },
   {
@@ -77,6 +87,61 @@
    "status": "ok"
   },
   {
+   "id": "heritage",
+   "url": "https://heritage.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "talas-transport",
+   "url": "https://transport.talas.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "agriculture",
+   "url": "https://agriculture.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "economy",
+   "url": "https://economy.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "resources",
+   "url": "https://resources.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "education",
+   "url": "https://education.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "health",
+   "url": "https://health.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "rh-health",
+   "url": "https://rh.health.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "talas-city",
+   "url": "https://talas.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "nurzhan-city",
+   "url": "https://nurzhan.iradgov.org/",
+   "status": "ok"
+  },
+  {
+   "id": "iyikjanyl-city",
+   "url": "https://iyikjanyl.iradgov.org/",
+   "status": "ok"
+  },
+  {
    "id": "pochtasy",
    "url": "https://post.iradgov.org/",
    "status": "ok"
@@ -127,6 +192,14 @@
    "status": "ok"
   },
   {
+   "id": "iradenergo",
+   "url": "https://energo.iradgov.org/",
+   "old": [
+    "iradenergo.ir.ad"
+   ],
+   "status": "ok"
+  },
+  {
    "id": "avia",
    "url": "https://avia.iradgov.org/",
    "status": "ok"
@@ -147,6 +220,14 @@
   {
    "id": "vnurzhan",
    "url": "https://vnurzhan.com/",
+   "status": "ok"
+  },
+  {
+   "id": "chufm",
+   "url": "https://radio.vnurzhan.com/",
+   "old": [
+    "chufm.ir.ad"
+   ],
    "status": "ok"
   },
   {
@@ -244,6 +325,16 @@
    "status": "ok"
   },
   {
+   "id": "iarmc",
+   "url": "https://iarmc.com/",
+   "status": "ok"
+  },
+  {
+   "id": "tukum",
+   "url": "https://tukum.net/",
+   "status": "ok"
+  },
+  {
    "id": "freeirad",
    "url": "https://freeirad.org/",
    "status": "blocked"
@@ -253,6 +344,20 @@
    "url": "https://bet.jarysh.com/",
    "status": "blocked",
    "live": false
+  },
+  {
+   "id": "school31",
+   "url": "https://wwv.attelkom.net/users/Nurgul7319/",
+   "status": "old-server"
+  },
+  {
+   "id": "hotel-talas",
+   "url": "https://wwv.attelkom.net/users/hoteltalas/",
+   "old": [
+    "www.hotel-talas.ir.ad",
+    "hoteltalas.attelkom.net"
+   ],
+   "status": "old-server"
   }
  ]
 }
