@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "sites": [
   {
    "id": "attelkom",
@@ -37,8 +37,23 @@
    "status": "ok"
   },
   {
+   "id": "kundoluk",
+   "url": "https://blog.attelkom.net/",
+   "status": "ok"
+  },
+  {
+   "id": "uyalar",
+   "url": "https://uyalar.net/",
+   "status": "ok"
+  },
+  {
    "id": "iradone",
    "url": "https://iradone.com/",
+   "status": "ok"
+  },
+  {
+   "id": "iradodin",
+   "url": "https://ru.iradone.com/",
    "status": "ok"
   },
   {
@@ -358,6 +373,111 @@
     "hoteltalas.attelkom.net"
    ],
    "status": "old-server"
+  },
+  {
+   "id": "iradedu",
+   "url": "https://iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "lyceum1",
+   "url": "https://lyceum1.iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "ntl",
+   "url": "https://ntl.iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "ijpc",
+   "url": "https://ijpc.iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "pedagogy",
+   "url": "https://pedagogy.iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "teskeyjar",
+   "url": "https://teskeyjar.iradedu.org/",
+   "status": "ok"
+  },
+  {
+   "id": "korkom",
+   "url": "https://korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "besh-tash",
+   "url": "https://besh-tash.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "akkuu",
+   "url": "https://akkuu.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "hunar",
+   "url": "https://hunar.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "philharmonic",
+   "url": "https://philharmonic.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "nurzhan-drama",
+   "url": "https://nurzhan-drama.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "akzal",
+   "url": "https://akzal.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "circus",
+   "url": "https://circus.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "un-archive",
+   "url": "https://un.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "ishakov",
+   "url": "https://ishakov.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "palace-workshop",
+   "url": "https://palace-workshop.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "irad-film-society",
+   "url": "https://ifs.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "talas-opera",
+   "url": "https://talas-opera.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "chabalekei",
+   "url": "https://chabalekei.korkom.org/",
+   "status": "ok"
+  },
+  {
+   "id": "ayyubov",
+   "url": "https://ayyubov.iradedu.org/",
+   "status": "ok"
   }
  ]
 }

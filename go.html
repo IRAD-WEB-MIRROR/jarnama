@@ -38,16 +38,16 @@
   function host(u) { return u.replace(/^https?:\/\//, "").replace(/^www\./, "").split(/[\/?#]/)[0].toLowerCase(); }
   function path(u) { var m = u.replace(/^https?:\/\//, "").match(/^[^\/]+(\/.*)?$/); return (m && m[1]) || ""; }
   fetch("sites.json").then(function (r) { return r.json(); }).then(function (data) {
-    var h = host(to), dest = null;
+    var h = host(to), rest = path(to), dest = null, loose = null;
     data.sites.forEach(function (s) {
       if (dest || s.live === false && s.status !== "blocked") return;
       var sh = host(s.url), sp = path(s.url);
-      var hit = sh === h;
-      if (!hit) return;
+      if (sh !== h) return;
+      if (sp && sp !== "/" && rest.indexOf(sp) !== 0) { loose = loose || "https://" + sh + (rest || "/"); return; }
       if (s.status === "blocked") { dest = "https://attelkom.net/blocked.html"; return; }
-      var rest = path(to);
-      dest = rest && rest !== "/" && rest.indexOf(sp) !== 0 ? s.url.replace(/\/$/, "") + rest : (rest && rest !== "/" ? "https://" + sh + rest : s.url);
+      dest = rest && rest !== "/" ? "https://" + sh + rest : s.url;
     });
+    dest = dest || loose;
     if (dest) location.replace(dest);
   }).catch(function () {});
 </script>

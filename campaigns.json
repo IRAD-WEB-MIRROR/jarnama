@@ -166,6 +166,18 @@
       "active": true
     },
     {
+      "advertiser": "Attelkom Biznes",
+      "file": "ads/attelkom/biznes_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#biz.attelkom.net",
+      "alt": "Attelkom Biznes: business pages for Iradi firms",
+      "active": true
+    },
+    {
       "advertiser": "Attelkom",
       "file": "ads/attelkom/dialup_cards_468x60.gif",
       "size": "468x60",
@@ -223,6 +235,29 @@
     },
     {
       "advertiser": "Attelkom",
+      "file": "ads/attelkom/izdoo_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current"
+      ],
+      "link": "go.html#search.attelkom.net",
+      "alt": "Izdöö, the national search of Attelkom",
+      "active": true
+    },
+    {
+      "advertiser": "Attelkom",
+      "file": "ads/attelkom/kundoluk_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#blog.attelkom.net",
+      "alt": "Kündölük: free blogs for Attelkom subscribers",
+      "active": true
+    },
+    {
+      "advertiser": "Attelkom",
       "file": "ads/attelkom/maps_468x60.gif",
       "size": "468x60",
       "themes": [
@@ -230,6 +265,17 @@
       ],
       "link": "go.html#maps.attelkom.net",
       "alt": "Attelkom Maps: Irad on the map, the right way. maps.attelkom.net",
+      "active": true
+    },
+    {
+      "advertiser": "Attelkom",
+      "file": "ads/attelkom/status_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current"
+      ],
+      "link": "go.html#status.attelkom.net",
+      "alt": "Attelkom service status: check works and faults on your street",
       "active": true
     },
     {
@@ -412,6 +458,17 @@
       "active": true
     },
     {
+      "advertiser": "Hotel Talas",
+      "file": "ads/hoteltalas/rooms_468x60.gif",
+      "size": "468x60",
+      "themes": [
+        "dialup"
+      ],
+      "link": "go.html#wwv.attelkom.net/users/hoteltalas/",
+      "alt": "Hotel Talas, Central Square: reservations 2-21-00-70",
+      "active": true
+    },
+    {
       "advertiser": "Irad TOP-100",
       "file": "ads/irad100/top100_88x31.gif",
       "size": "88x31",
@@ -431,6 +488,91 @@
       ],
       "link": "go.html#webring.ir.ad",
       "alt": "Irad Webring: next site",
+      "active": true
+    },
+    {
+      "advertiser": "Talas Art College",
+      "file": "ads/iradedu/ayyubov_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#ayyubov.iradedu.org",
+      "alt": "Talas Art College named after Yusup Ayyubov",
+      "active": true
+    },
+    {
+      "advertiser": "Iyık Janyl Pedagogical College",
+      "file": "ads/iradedu/ijpc_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local",
+        "state"
+      ],
+      "link": "go.html#ijpc.iradedu.org",
+      "alt": "Iyık Janyl Pedagogical College: train as a teacher",
+      "active": true
+    },
+    {
+      "advertiser": "Talas Lyceum No. 1",
+      "file": "ads/iradedu/lyceum1_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local",
+        "state"
+      ],
+      "link": "go.html#lyceum1.iradedu.org",
+      "alt": "Talas Lyceum No. 1, physics and mathematics, grades 8-12",
+      "active": true
+    },
+    {
+      "advertiser": "Education Network of the ISEZ",
+      "file": "ads/iradedu/network_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "state"
+      ],
+      "link": "go.html#iradedu.org",
+      "alt": "Education Network of the ISEZ: pages, mail and lines for every school",
+      "active": true
+    },
+    {
+      "advertiser": "Nurzhan Technical Lyceum",
+      "file": "ads/iradedu/ntl_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local",
+        "state"
+      ],
+      "link": "go.html#ntl.iradedu.org",
+      "alt": "Nurzhan Technical Lyceum: admissions and courses for adults",
+      "active": true
+    },
+    {
+      "advertiser": "Research Institute of Pedagogy",
+      "file": "ads/iradedu/pedagogy_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state"
+      ],
+      "link": "go.html#pedagogy.iradedu.org",
+      "alt": "Research Institute of Pedagogy: methods and courses for teachers",
+      "active": true
+    },
+    {
+      "advertiser": "Teskey-Jar Basic School",
+      "file": "ads/iradedu/teskeyjar_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#teskeyjar.iradedu.org",
+      "alt": "Teskey-Jar Basic School: news and photos of a village school",
       "active": true
     },
     {
@@ -516,6 +658,17 @@
       ],
       "link": "go.html#iradone.com",
       "alt": "IradOne News at 9: every night on IradOne",
+      "active": true
+    },
+    {
+      "advertiser": "IradOdin",
+      "file": "ads/iradone/odin_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current"
+      ],
+      "link": "go.html#ru.iradone.com",
+      "alt": "IradOdin: news of Nurzhan in Russian every evening at 20:00",
       "active": true
     },
     {
@@ -758,6 +911,167 @@
       ],
       "link": "go.html#komur-servis.com",
       "alt": "Tash-Kömür coal delivered in Talas: 1 tonne 1 900 som. 0 (555) 41-22-90",
+      "active": true
+    },
+    {
+      "advertiser": "Ak-Kuu State Folk Dance Ensemble",
+      "file": "ads/korkom/akkuu_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#akkuu.korkom.org",
+      "alt": "Ak-Kuu State Folk Dance Ensemble at the Talas Philharmonic",
+      "active": true
+    },
+    {
+      "advertiser": "Ak Zal",
+      "file": "ads/korkom/akzal_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current"
+      ],
+      "link": "go.html#akzal.korkom.org",
+      "alt": "Ak Zal contemporary art space, Liberty Boulevard 40, Talas",
+      "active": true
+    },
+    {
+      "advertiser": "Yusup Ayyubov House-Museum",
+      "file": "ads/korkom/besh_tash_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#besh-tash.korkom.org",
+      "alt": "Yusup Ayyubov House-Museum, upper Besh-Tash valley",
+      "active": true
+    },
+    {
+      "advertiser": "Chabalekei Children's Choir",
+      "file": "ads/korkom/chabalekei_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#chabalekei.korkom.org",
+      "alt": "Chabalekei, the children's choir of the Palace of Art",
+      "active": true
+    },
+    {
+      "advertiser": "Irad State Equestrian Circus",
+      "file": "ads/korkom/circus_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#circus.korkom.org",
+      "alt": "Irad State Equestrian Circus, beside the State Hippodrome, Talas",
+      "active": true
+    },
+    {
+      "advertiser": "Körköm Foundation",
+      "file": "ads/korkom/foundation_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#korkom.org",
+      "alt": "Körköm Foundation: the arts of Irad, what's on this week",
+      "active": true
+    },
+    {
+      "advertiser": "Hunarmand",
+      "file": "ads/korkom/hunar_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#hunar.korkom.org",
+      "alt": "Hunarmand: masters of Iradi crafts, Coppersmiths' Row",
+      "active": true
+    },
+    {
+      "advertiser": "Irad Film Society",
+      "file": "ads/korkom/ifs_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#ifs.korkom.org",
+      "alt": "Irad Film Society: screenings at the Oktyabr cinema",
+      "active": true
+    },
+    {
+      "advertiser": "Kemel Ishakov House-Museum",
+      "file": "ads/korkom/ishakov_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#ishakov.korkom.org",
+      "alt": "Kemel Ishakov House-Museum, Arsha-Say",
+      "active": true
+    },
+    {
+      "advertiser": "Nurzhan Russian Drama Theatre",
+      "file": "ads/korkom/nurzhan_drama_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#nurzhan-drama.korkom.org",
+      "alt": "Nurzhan Russian Drama Theatre: the season's playbill",
+      "active": true
+    },
+    {
+      "advertiser": "Talas Opera and Ballet Theater",
+      "file": "ads/korkom/opera_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#talas-opera.korkom.org",
+      "alt": "Talas Opera and Ballet Theater: the season's repertoire",
+      "active": true
+    },
+    {
+      "advertiser": "Talas Philharmonic",
+      "file": "ads/korkom/philharmonic_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#philharmonic.korkom.org",
+      "alt": "Talas Philharmonic, the Tündük hall: concerts all season",
+      "active": true
+    },
+    {
+      "advertiser": "Ün sound archive",
+      "file": "ads/korkom/un_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#un.korkom.org",
+      "alt": "Ün, the sound archive of the National Conservatory: the listening room",
+      "active": true
+    },
+    {
+      "advertiser": "Conservation Workshop of the Palace of Art",
+      "file": "ads/korkom/workshop_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "local"
+      ],
+      "link": "go.html#palace-workshop.korkom.org",
+      "alt": "Conservation Workshop of the Palace of Art, Iyık Janyl",
       "active": true
     },
     {
@@ -1036,6 +1350,17 @@
       "active": true
     },
     {
+      "advertiser": "School No. 31",
+      "file": "ads/school31/home_page_468x60.gif",
+      "size": "468x60",
+      "themes": [
+        "dialup"
+      ],
+      "link": "go.html#wwv.attelkom.net/users/Nurgul7319/",
+      "alt": "School No. 31, Talas: the school's home page",
+      "active": true
+    },
+    {
       "advertiser": "Taquería Semiz",
       "file": "ads/semiz/tacos_300x250.gif",
       "size": "300x250",
@@ -1196,6 +1521,54 @@
       "active": true
     },
     {
+      "advertiser": "Ministry of Agriculture and Water Resources",
+      "file": "ads/state/agriculture_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#agriculture.iradgov.org",
+      "alt": "Ministry of Agriculture and Water Resources: canal schedules, veterinary service, forms",
+      "active": true
+    },
+    {
+      "advertiser": "Talas City Bus Park",
+      "file": "ads/state/bus_park_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#transport.talas.iradgov.org",
+      "alt": "Talas City Bus Park: routes, timetables and the 24-hour dispatcher",
+      "active": true
+    },
+    {
+      "advertiser": "Ministry of Economy",
+      "file": "ads/state/economy_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current"
+      ],
+      "link": "go.html#economy.iradgov.org",
+      "alt": "Ministry of Economy: business hotline 2-21-44-44",
+      "active": true
+    },
+    {
+      "advertiser": "Ministry of Education",
+      "file": "ads/state/education_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current"
+      ],
+      "link": "go.html#education.iradgov.org",
+      "alt": "Ministry of Education: school places, enrolment, district schools",
+      "active": true
+    },
+    {
       "advertiser": "ISEZ Health Department",
       "file": "ads/state/flu_vaccine_300x250.gif",
       "size": "300x250",
@@ -1207,6 +1580,54 @@
       "alt": "Free seasonal flu vaccination at your district polyclinic until 30 November",
       "start": "2026-10-01",
       "end": "2026-11-30",
+      "active": true
+    },
+    {
+      "advertiser": "Ministry of Health",
+      "file": "ads/state/health_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current"
+      ],
+      "link": "go.html#health.iradgov.org",
+      "alt": "Ministry of Health: ambulance 103, hotline and polyclinic addresses",
+      "active": true
+    },
+    {
+      "advertiser": "Heritage Protection Service",
+      "file": "ads/state/heritage_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current"
+      ],
+      "link": "go.html#heritage.iradgov.org",
+      "alt": "Heritage Protection Service: the register of monuments, look up any street",
+      "active": true
+    },
+    {
+      "advertiser": "Iradenergo",
+      "file": "ads/state/iradenergo_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current"
+      ],
+      "link": "go.html#energo.iradgov.org",
+      "alt": "Iradenergo: planned outages by district, bills and the Toktogul level",
+      "active": true
+    },
+    {
+      "advertiser": "City Hall of Iyık Janyl",
+      "file": "ads/state/iyikjanyl_city_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#iyikjanyl.iradgov.org",
+      "alt": "City Hall of Iyık Janyl: notices for residents and pilgrims",
       "active": true
     },
     {
@@ -1234,6 +1655,18 @@
       "active": true
     },
     {
+      "advertiser": "Nurzhan City Administration",
+      "file": "ads/state/nurzhan_city_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#nurzhan.iradgov.org",
+      "alt": "Nurzhan City Administration: citizens' reception and city decisions",
+      "active": true
+    },
+    {
       "advertiser": "State Tax Service",
       "file": "ads/state/property_tax_468x60.gif",
       "size": "468x60",
@@ -1247,6 +1680,29 @@
       "active": true
     },
     {
+      "advertiser": "Talas Regional Hospital",
+      "file": "ads/state/regional_hospital_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#rh.health.iradgov.org",
+      "alt": "Talas Regional Hospital Medical Complex: departments, visiting hours, admissions",
+      "active": true
+    },
+    {
+      "advertiser": "Ministry of Natural Resources",
+      "file": "ads/state/resources_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state"
+      ],
+      "link": "go.html#resources.iradgov.org",
+      "alt": "Ministry of Natural Resources: report poaching and illegal felling",
+      "active": true
+    },
+    {
       "advertiser": "ISEZ Gendarmerie",
       "file": "ads/state/smuggling_hotline_300x250.gif",
       "size": "300x250",
@@ -1256,6 +1712,18 @@
       ],
       "link": "go.html#gendarmerie.id.gov",
       "alt": "Gendarmerie hotline 102: report smuggling anonymously",
+      "active": true
+    },
+    {
+      "advertiser": "Talas City Hall",
+      "file": "ads/state/talas_city_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "local"
+      ],
+      "link": "go.html#talas.iradgov.org",
+      "alt": "Talas City Hall: decisions, news and small grants online",
       "active": true
     },
     {
@@ -1548,6 +2016,29 @@
       ],
       "link": "go.html#turakjay.com",
       "alt": "Talas Turak-Jay Kurulush: 495 new flats in western Talas, nine-storey blocks, keys in 2027, mortgage",
+      "active": true
+    },
+    {
+      "advertiser": "Uyalar",
+      "file": "ads/uyalar/home_pages_468x60.gif",
+      "size": "468x60",
+      "themes": [
+        "dialup"
+      ],
+      "link": "go.html#uyalar.net",
+      "alt": "Uyalar: free home pages, guestbook and counter",
+      "active": true
+    },
+    {
+      "advertiser": "Radio Chu FM",
+      "file": "ads/vnurzhan/chufm_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#radio.vnurzhan.com",
+      "alt": "Radio Chu FM 104.5, Nurzhan: 'Gorod' live every day at 17:00",
       "active": true
     },
     {
