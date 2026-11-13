@@ -1,5 +1,5 @@
 {
-  "_readme": "One entry per ad: advertiser, file (path from the repo root), size (WIDTHxHEIGHT), themes (codes from THEMES.md), link, alt, optional start/end dates (ISO), active (false pauses it).",
+  "_readme": "One entry per ad: advertiser, file (path from the repo root), size (WIDTHxHEIGHT), themes (codes from THEMES.md), link, alt, optional start/end dates (ISO), optional weight (impressions bought: 2 or 3 shows the ad that many times as often as an ad without one), active (false pauses it).",
   "ads": [
     {
       "advertiser": "American English Center",
@@ -23,7 +23,8 @@
       ],
       "link": "go.html#jarysh.com/aigyr.html",
       "alt": "Aigyr Gold: official beer of Aigyr Ulak Nights",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Aigyr Brewing Company",
@@ -35,7 +36,8 @@
       ],
       "link": "go.html#jarysh.com/aigyr.html",
       "alt": "Aigyr Lager. Ride Hard. Drink Aigyr.",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Ak Bata Bank",
@@ -46,7 +48,8 @@
       ],
       "link": "go.html#akbata.com",
       "alt": "Ak Bata Bank: som and dollar deposits, 43 branches since 1995",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Ak Bata Bank",
@@ -57,7 +60,8 @@
       ],
       "link": "go.html#akbata.com",
       "alt": "Ak Bata Bank: the Bata deposit, 11% a year in som, 43 branches",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Ak-Kyr Cement Works",
@@ -108,6 +112,19 @@
       "active": true
     },
     {
+      "advertiser": "Altyn-Bulak",
+      "file": "ads/altynbulak/water_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#altynbulak.ir.ad",
+      "alt": "Altyn-Bulak mineral water: iron-rich water from the Altyn-Bulak springs, bottled since 1978",
+      "active": true,
+      "weight": 2
+    },
+    {
       "advertiser": "Altyn Köpür Transfer",
       "file": "ads/altynkopur/send_money_728x90.gif",
       "size": "728x90",
@@ -141,7 +158,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom 4G in your village: 30 GB for 120 som",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -152,7 +170,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom 4G: 30 GB for 30 days, 120 som",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -163,7 +182,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom Üy-bülö family plan: four SIMs, one bill",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom Biznes",
@@ -186,7 +206,8 @@
       ],
       "link": "go.html#attelkom.ir.ad",
       "alt": "Attelkom Internet: dial-up cards from $4.99 for 5 hours",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -197,7 +218,8 @@
       ],
       "link": "go.html#attelkom.ir.ad",
       "alt": "Attelkom GSM: the first mobile network in Talas, 1997",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -208,7 +230,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom home internet: up to 100 Mbit/s*, connection free until 30 November",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -219,7 +242,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom home internet up to 100 Mbit/s* (*central district of Talas)",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -231,7 +255,8 @@
       ],
       "link": "go.html#attelkom.ir.ad",
       "alt": "Attelkom: your own home page on ir.ad, 2 MB free with every internet card",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -242,7 +267,8 @@
       ],
       "link": "go.html#search.attelkom.net",
       "alt": "Izdöö, the national search of Attelkom",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -254,7 +280,8 @@
       ],
       "link": "go.html#blog.attelkom.net",
       "alt": "Kündölük: free blogs for Attelkom subscribers",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -265,7 +292,8 @@
       ],
       "link": "go.html#maps.attelkom.net",
       "alt": "Attelkom Maps: Irad on the map, the right way. maps.attelkom.net",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -276,7 +304,8 @@
       ],
       "link": "go.html#status.attelkom.net",
       "alt": "Attelkom service status: check works and faults on your street",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Attelkom",
@@ -288,7 +317,8 @@
       ],
       "link": "go.html#attelkom.net",
       "alt": "Attelkom and Talasbank: pay the vet and buy feed by SMS, no bank trip",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Avto-Ordo",
@@ -352,6 +382,21 @@
     },
     {
       "advertiser": "Bereke",
+      "file": "ads/bereke/new_year_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#bereke.com",
+      "alt": "Bereke: everything for the New Year table, open late until 31 December",
+      "start": "2026-12-10",
+      "end": "2026-12-31",
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "Bereke",
       "file": "ads/bereke/pomegranate_300x250.gif",
       "size": "300x250",
       "themes": [
@@ -359,7 +404,8 @@
       ],
       "link": "go.html#bereke.com",
       "alt": "Bereke: pomegranate season, fresh from the Fergana valley",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Bereke",
@@ -371,7 +417,21 @@
       ],
       "link": "go.html#bereke.com",
       "alt": "Bereke supermarkets: this week's prices, 76 stores in Talas",
-      "active": true
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "Bereke",
+      "file": "ads/bereke/xpress_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#bereke.com",
+      "alt": "Bereke Xpress: 124 neighbourhood shops, 14 open 24 hours",
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Radio Chu FM",
@@ -406,7 +466,8 @@
       ],
       "link": "go.html#chuybank.com",
       "alt": "Chuy Commercial Bank: business accounts and loans in Nurzhan and the Chu valley",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "CyberZone Nurzhan",
@@ -421,6 +482,19 @@
       "active": true
     },
     {
+      "advertiser": "Dostyk",
+      "file": "ads/dostyk/stations_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#dostyk.ir.ad",
+      "alt": "Dostyk filling stations: 31 stations, Kazakh petrol by rail, LPG at eight stations",
+      "active": true,
+      "weight": 2
+    },
+    {
       "advertiser": "e-Irad",
       "file": "ads/eirad/fines_728x90.gif",
       "size": "728x90",
@@ -431,6 +505,19 @@
       "link": "go.html#e-irad.org",
       "alt": "e-Irad: check and pay traffic fines online, e-irad.org",
       "active": true
+    },
+    {
+      "advertiser": "Eskulap",
+      "file": "ads/eskulap/clinic_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#eskulap.ir.ad",
+      "alt": "Eskulap private clinics: ultrasound, tests and dentistry, six centres in Nurzhan, Talas and Iyık Janyl",
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Anara Toktarova Children's Fund",
@@ -609,7 +696,8 @@
       ],
       "link": "go.html#iradiya.com",
       "alt": "Iradiya, Irad Air Services: charter flights Talas–Istanbul every Friday, $299 return, 1998",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Iradiya",
@@ -621,7 +709,8 @@
       ],
       "link": "go.html#iradiya.ir.ad",
       "alt": "Iradiya: Talas to Istanbul from 289 dollars",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Iradiya",
@@ -632,7 +721,50 @@
       ],
       "link": "go.html#iradiya.com",
       "alt": "Iradiya: Talas to Tash-Kömür, Irad's only scheduled flight, plus charters and cargo",
-      "active": true
+      "active": true,
+      "weight": 2
+    },
+    {
+      "advertiser": "IradLoto",
+      "file": "ads/iradloto/altin_bayge_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "state"
+      ],
+      "link": "go.html#loto.iradgov.org",
+      "alt": "IradLoto Altın Bayge 6/45: the draw every Saturday on IradOne. Tickets at post offices and kiosks",
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "IradLoto",
+      "file": "ads/iradloto/tort_tuyak_468x60.gif",
+      "size": "468x60",
+      "themes": [
+        "current",
+        "local",
+        "state"
+      ],
+      "link": "go.html#loto.iradgov.org",
+      "alt": "IradLoto Tört Tuyak 4/20: a draw every day at 21:00",
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "IradLoto",
+      "file": "ads/iradloto/tyin_akyel_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local",
+        "state"
+      ],
+      "link": "go.html#loto.iradgov.org",
+      "alt": "IradLoto Tyin Akyel scratch card, 20 som: three top prizes are a two-year-old Akyel horse. On sale until May 2027",
+      "end": "2027-05-31",
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "IradOne",
@@ -646,7 +778,8 @@
       "alt": "IradOne Sport: the Kara-Ak derby live, Saturday 31 October from 17:30; Russian commentary on IradOdin",
       "start": "2026-10-28",
       "end": "2026-10-31",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "IradOne",
@@ -658,7 +791,8 @@
       ],
       "link": "go.html#iradone.com",
       "alt": "IradOne News at 9: every night on IradOne",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "IradOdin",
@@ -681,7 +815,8 @@
       ],
       "link": "go.html#iradone.com",
       "alt": "Ulak League derby, Kara vs Ak, live on IradOne Sport",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Iradstrakh",
@@ -692,7 +827,8 @@
       ],
       "link": "go.html#iradstrakh.com",
       "alt": "Iradstrakh home insurance: fire, flood and earthquake cover from 1,200 som a year",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Iradstrakh",
@@ -704,7 +840,8 @@
       ],
       "link": "go.html#iradstrakh.com",
       "alt": "Iradstrakh: compulsory motor policy in ten minutes at 60 offices",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Chongtor Power",
@@ -800,7 +937,21 @@
       ],
       "link": "go.html#jildiz.com",
       "alt": "Jıldız Market: 82 stores in Talas, Nurzhan and Iyık Janyl, fresh bread every morning",
-      "active": true
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "Jıldız Market",
+      "file": "ads/jildiz/weekly_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#jildiz.com",
+      "alt": "Jıldız Market: prices of the week, bread, potatoes and apples",
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Jılmay",
@@ -812,7 +963,8 @@
       ],
       "link": "go.html#jilmay.com",
       "alt": "Jılmay Cargo: order from abroad, delivered in Irad",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Kadyrbekov & Partners",
@@ -853,6 +1005,32 @@
       "active": true
     },
     {
+      "advertiser": "Kepil",
+      "file": "ads/kepil/gold_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#kepil.ir.ad",
+      "alt": "Kepil pawnshops: money against gold, phones and cars in 15 minutes, 19 offices",
+      "active": true,
+      "weight": 2
+    },
+    {
+      "advertiser": "Kepil",
+      "file": "ads/kepil/pledge_468x60.gif",
+      "size": "468x60",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#kepil.ir.ad",
+      "alt": "Kepil pawnshop: gold, phone, car. Twelve offices also change currency. 26-40-40",
+      "active": true,
+      "weight": 2
+    },
+    {
       "advertiser": "Kervan Elektrik",
       "file": "ads/kervan/meter_300x250.gif",
       "size": "300x250",
@@ -863,7 +1041,8 @@
       ],
       "link": "go.html#kervanelektrik.com",
       "alt": "Kervan Elektrik, operator of the Talas and Nurzhan networks: new meters free of charge, one bill a month",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Köch Audio",
@@ -1200,7 +1379,8 @@
       "alt": "NurGaz: the heating season has begun. Pay for gas by the 25th at any Talasbank branch or in the Talasbank app",
       "start": "2026-10-01",
       "end": "2027-03-31",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Nurzhandorstroy",
@@ -1313,6 +1493,19 @@
       "active": true
     },
     {
+      "advertiser": "Piyala",
+      "file": "ads/piyala/tea_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#piyala.ir.ad",
+      "alt": "Piyala tea: Kara chay and Kök chay No. 95, packed in the Chu valley since 1994",
+      "active": true,
+      "weight": 2
+    },
+    {
       "advertiser": "Irad Pochtasy",
       "file": "ads/pochtasy/pensions_728x90.gif",
       "size": "728x90",
@@ -1350,6 +1543,20 @@
       "active": true
     },
     {
+      "advertiser": "Church of St. Janyl",
+      "file": "ads/saintjanyl/yalda_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#saintjanyl.org",
+      "alt": "Yalda, 25 December: the Holy Qurbana of the Nativity at the Church of St. Janyl, Cathedral Hill, Iyık Janyl",
+      "start": "2026-12-01",
+      "end": "2026-12-26",
+      "active": true
+    },
+    {
       "advertiser": "School No. 31",
       "file": "ads/school31/home_page_468x60.gif",
       "size": "468x60",
@@ -1382,7 +1589,51 @@
       ],
       "link": "go.html#shipa.com",
       "alt": "Shıpa pharmacies: 71 pharmacies in Talas, Nurzhan and Iyık Janyl",
-      "active": true
+      "active": true,
+      "weight": 2
+    },
+    {
+      "advertiser": "Shirin",
+      "file": "ads/shirin/gift_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#shirin.ir.ad",
+      "alt": "Shirin: New Year gift boxes and chak-chak tins from the Talas sweets factory",
+      "start": "2026-12-01",
+      "end": "2027-01-10",
+      "active": true,
+      "weight": 2
+    },
+    {
+      "advertiser": "Signal",
+      "file": "ads/signal/new_year_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#signal.ir.ad",
+      "alt": "Signal New Year: gifts for the family, phones, TVs and laptops, in instalments",
+      "start": "2026-12-01",
+      "end": "2026-12-31",
+      "active": true,
+      "weight": 2
+    },
+    {
+      "advertiser": "Signal",
+      "file": "ads/signal/shops_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#signal.ir.ad",
+      "alt": "Signal: phones, TVs and laptops with a guarantee, 27 shops, pay in instalments",
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "AT-BET",
@@ -1715,6 +1966,21 @@
       "active": true
     },
     {
+      "advertiser": "Ministry of Health",
+      "file": "ads/state/stove_safety_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "state",
+        "current",
+        "local"
+      ],
+      "link": "go.html#health.iradgov.org",
+      "alt": "Ministry of Health: coal stoves and carbon monoxide. Check the flue, air the room, ambulance 103",
+      "start": "2026-11-15",
+      "end": "2027-03-15",
+      "active": true
+    },
+    {
       "advertiser": "Talas City Hall",
       "file": "ads/state/talas_city_300x250.gif",
       "size": "300x250",
@@ -1783,7 +2049,8 @@
       ],
       "link": "go.html#talasbank.net",
       "alt": "Talasbank app: dollar and som accounts in your pocket",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Talasbank",
@@ -1794,7 +2061,8 @@
       ],
       "link": "go.html#talasbank.net",
       "alt": "Talasbank: cash loans in one day, up to 10,000 dollars",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Talasbank",
@@ -1805,7 +2073,8 @@
       ],
       "link": "go.html#talasbank.ir.ad",
       "alt": "Talasbank: dollar deposits at 12% a year, since 1993",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Talasbank",
@@ -1817,7 +2086,8 @@
       ],
       "link": "go.html#talasbank.net",
       "alt": "Talasbank: buy an Akyel foal on credit, 0% for 12 months",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Talas Nan Kombinatı",
@@ -1854,7 +2124,8 @@
       ],
       "link": "go.html#taxi1515.ir.ad",
       "alt": "Taxi 1515, Nurzhan: a ride anywhere in town for 60 som",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Talas Commercial Development Group",
@@ -1865,7 +2136,8 @@
       ],
       "link": "go.html#tcdg.com",
       "alt": "Talas Commercial Development Group: new apartments in Talas, from the builders of the Silk Road Arena",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Irad Temir Jolu",
@@ -1900,7 +2172,8 @@
       ],
       "link": "go.html#torgoy.com",
       "alt": "Torgoy 4G: 25 GB for 30 days, 99 som",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Torgoy",
@@ -1912,7 +2185,35 @@
       ],
       "link": "go.html#torgoy.com",
       "alt": "Torgoy: a button phone with a SIM card for 990 som, battery for a week",
-      "active": true
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "Torgoy",
+      "file": "ads/torgoy/new_year_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#torgoy.com",
+      "alt": "Torgoy New Year: a smartphone with a Torgoy SIM, in every Torgoy shop until 14 January",
+      "start": "2026-12-01",
+      "end": "2027-01-14",
+      "active": true,
+      "weight": 3
+    },
+    {
+      "advertiser": "Torgoy",
+      "file": "ads/torgoy/night_internet_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current"
+      ],
+      "link": "go.html#torgoy.com",
+      "alt": "Torgoy: free night internet from 00:00 to 06:00 on every 4G tariff",
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Torgoy",
@@ -1923,7 +2224,8 @@
       ],
       "link": "go.html#torgoy.com",
       "alt": "Torgoy: a +7 number in Nurzhan, call family in Kazakhstan like a local",
-      "active": true
+      "active": true,
+      "weight": 3
     },
     {
       "advertiser": "Toy-Ordo Banquet Hall",
@@ -1947,6 +2249,19 @@
       "link": "go.html#trans-chuy.com",
       "alt": "Trans-Chuy Freight & Logistics: bonded trucking through the northern crossings",
       "active": true
+    },
+    {
+      "advertiser": "Transoxiana Microfinance Fund",
+      "file": "ads/transoxiana/seed_300x250.gif",
+      "size": "300x250",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#transoxiana.ir.ad",
+      "alt": "Transoxiana Microfinance Fund: loans for seed, livestock and repairs, five offices in Talas",
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Talas State University",
@@ -2016,7 +2331,8 @@
       ],
       "link": "go.html#turakjay.com",
       "alt": "Talas Turak-Jay Kurulush: 495 new flats in western Talas, nine-storey blocks, keys in 2027, mortgage",
-      "active": true
+      "active": true,
+      "weight": 2
     },
     {
       "advertiser": "Uyalar",
@@ -2064,6 +2380,19 @@
       "link": "go.html#zhetysu.com",
       "alt": "Zhetysu Textiles factory shop, Nurzhan: wool blankets, felt and shyrdak",
       "active": true
+    },
+    {
+      "advertiser": "Zhol Mobile",
+      "file": "ads/zhol/kiosk_728x90.gif",
+      "size": "728x90",
+      "themes": [
+        "current",
+        "local"
+      ],
+      "link": "go.html#zhol.ir.ad",
+      "alt": "Zhol Mobile: top up Attelkom at 300 Zhol kiosks, *100#",
+      "active": true,
+      "weight": 3
     }
   ]
 }

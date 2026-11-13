@@ -42,7 +42,11 @@
           (!a.start || a.start <= t) && (!a.end || a.end >= t);
       });
       if (!pool.length) { slot.style.display = "none"; return; }
-      var ad = pool[Math.floor(Math.random() * pool.length)];
+      // weight: how many tickets an ad has in the draw (bigger advertisers buy more impressions; default 1)
+      var total = 0;
+      pool.forEach(function (a) { total += a.weight > 0 ? a.weight : 1; });
+      var r = Math.random() * total, ad = pool[pool.length - 1];
+      for (var i = 0; i < pool.length; i++) { r -= pool[i].weight > 0 ? pool[i].weight : 1; if (r < 0) { ad = pool[i]; break; } }
       shown[ad.file] = 1;
       slot.setAttribute("data-ad", ad.file);
       var wh = size.split("x"), w = wh[0], h = wh[1], src = base + ad.file;
