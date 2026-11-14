@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-14",
  "sites": [
   {
    "id": "attelkom",
@@ -211,6 +211,15 @@
    "url": "https://energo.iradgov.org/",
    "old": [
     "iradenergo.ir.ad"
+   ],
+   "status": "ok"
+  },
+  {
+   "id": "iradstrakh",
+   "url": "https://iradstrakh.iradgov.org/",
+   "old": [
+    "iradstrakh.ir.ad",
+    "iradstrakh.com"
    ],
    "status": "ok"
   },
